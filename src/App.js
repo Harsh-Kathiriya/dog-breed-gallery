@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from 'react';
+import Navbar from './components/Navbar';
+import FilterBar from './components/FilterBar';
+import Gallery from './components/Gallery';
 
-function App() {
+
+const App = () => {
+  const [selectedBreeds, setSelectedBreeds] = useState([]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar />
+      <FilterBar onFilterChange={setSelectedBreeds} />
+      <Gallery selectedBreeds={selectedBreeds} />
     </div>
   );
-}
+};
 
 export default App;
+
