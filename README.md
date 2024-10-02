@@ -1,5 +1,7 @@
 # Dog Image Gallery
 
+Live link: https://harsh-kathiriya.github.io/dog-breed-gallery/
+
 ## Fetch Front-End Internship Take-Home Exercise
 
 This project is a web application that allows users to view an image gallery of their favorite dog breeds using the Dog API. Users can select one or more breeds to display their corresponding images in a gallery format.
