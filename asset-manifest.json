@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/dog-breed-gallery/static/css/main.d6ecf15a.css",
+    "main.js": "/dog-breed-gallery/static/js/main.1594b356.js",
+    "index.html": "/dog-breed-gallery/index.html",
+    "main.d6ecf15a.css.map": "/dog-breed-gallery/static/css/main.d6ecf15a.css.map",
+    "main.1594b356.js.map": "/dog-breed-gallery/static/js/main.1594b356.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d6ecf15a.css",
+    "static/js/main.1594b356.js"
+  ]
+}
